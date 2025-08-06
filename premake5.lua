@@ -30,6 +30,7 @@ project("crane")
 	language("C")
 	targetdir("lib")
 	objdir("obj")
+	files("src/lib/*.c")
 	filter("configurations:Debug")
 		defines({
 			"DEBUG"
